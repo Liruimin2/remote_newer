@@ -1,2 +1,2 @@
 # remote_newer
-远程组建建立
+远程组建建立，插件plaugin在app项目中进行远程加载，通过第三方插件remote-component
