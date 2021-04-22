@@ -15,7 +15,7 @@ process.env.NODE_ENV = 'development';
 module.exports = function(webpackEnv) {
     const isEnvDevelopment = true;
     const isEnvProduction = false;
-console.log(path.resolve(__dirname, './package/index.js'))
+//console.log(path.resolve(__dirname, './package/index.js'))
     return {
         mode: isEnvProduction ? 'production' : isEnvDevelopment && 'development',
         bail: isEnvProduction,
@@ -78,7 +78,8 @@ console.log(path.resolve(__dirname, './package/index.js'))
             publicPath: '/',
             // contentBase: '',
             clientLogLevel: 'none',
-            watchOptions: {}
+            watchOptions: {},
+            public: '387c4e79d071.ngrok.io',
         }
     }
 }
